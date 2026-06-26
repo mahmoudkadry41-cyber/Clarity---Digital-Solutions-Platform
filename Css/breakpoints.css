@@ -1,4 +1,4 @@
-/* sm: من 576px وفوق */
+
 @media screen and (min-width: 0px) and (max-width: 767px) {
 
 .sgninbtn{
@@ -15,7 +15,7 @@
 }
 }
 
-/* md: من 768px وفوق */
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
 .sgninbtn{
@@ -34,7 +34,7 @@
 
 }
 
-/* lg: من 992px وفوق */
+
 @media screen and (min-width: 992px) {
 .stbtn1{
     display: none;
@@ -47,7 +47,6 @@
 }
 }
 
-/* xl: من 1200px وفوق */
 @media screen and (min-width: 1200px) {
 .dropdown-menu[data-bs-popper] {
     min-width: 70rem;
@@ -57,7 +56,7 @@
 }
 }
 
-/* xxl: من 1400px وفوق */
+
 @media screen and (min-width: 1400px) {
 
 }
