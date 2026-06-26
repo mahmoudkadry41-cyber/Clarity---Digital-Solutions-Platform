@@ -1,0 +1,63 @@
+/* sm: من 576px وفوق */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+.sgninbtn{
+    display: none;
+    
+}
+.stbtn , .stbtn1{
+    width: 90%;
+}
+.dropdown-menu[data-bs-popper] {
+    min-width: 20rem;
+    min-height: auto;
+    left: -200px;
+}
+}
+
+/* md: من 768px وفوق */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.sgninbtn{
+    display: none;
+    background-color: none;
+    
+}
+.stbtn , .stbtn1{
+    width: 100%;
+}
+.dropdown-menu[data-bs-popper] {
+    min-width: 40rem;
+    min-height: auto;
+    left: -200px;
+}
+
+}
+
+/* lg: من 992px وفوق */
+@media screen and (min-width: 992px) {
+.stbtn1{
+    display: none;
+}
+.dropdown-menu[data-bs-popper] {
+    min-width: 70rem;
+    min-height: auto;
+    left: -280px;
+    transform: scale(85%);
+}
+}
+
+/* xl: من 1200px وفوق */
+@media screen and (min-width: 1200px) {
+.dropdown-menu[data-bs-popper] {
+    min-width: 70rem;
+    min-height: auto;
+    left: -200px;
+    transform: none;
+}
+}
+
+/* xxl: من 1400px وفوق */
+@media screen and (min-width: 1400px) {
+
+}

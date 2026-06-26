@@ -1,8 +1,132 @@
+:root{
+    --maincolor:#7C2D12;
+}
+
 @font-face{
-    font-family: mainfont;
+    font-family: "mainFont";
     src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
-body{
-    font-family: mainfont;
+p, span{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    font-family: mainFont;
+}
+.baricon{
+    background-image:linear-gradient(to right, #E8580C,#C4420C) ;
+width: 40px;
+height: 40px;
+}
+.navbar{
+    
+    border-bottom: rgba(128, 128, 128, 0.24) 1px solid;
+}
+.navbar-brand{
+    color: transparent;
+    background-image:linear-gradient(to right, #E8580C,#C4420C) ;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    background-clip: text;
+}
+.stbtn , .stbtn1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    background-image:linear-gradient(to right, #E8580C,#C4420C) ;
+    width: 150px;
+    height: 45px;
+    border: none;
+    transition: all .4s;
+
+}
+.stbtn:hover{
+    box-shadow: 0 10px 6px 0px #ff400036;
+}
+.stbtn1{
+    background-image: none;
+    background-color: white !important;
+    color: black;
+    box-shadow: none;
+    border: 1px rgba(128, 128, 128, 0.212) solid;
+}
+.stbtn1:hover{
+    color:#EB5F17;
+    border: 1px rgba(128, 128, 128, 0.212) solid;
+}
+
+.navbar li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: oklch(0.446 0.03 256.802);
+}
+.nav-link:focus, .nav-link:hover {
+    color:#EB5F17;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:#EB5F17;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: transparent;
+}
+.dropdown-menu[data-bs-popper] {
+    min-width: 70rem;
+    min-height: auto;
+    left: -200px;
+}
+.ddicon{
+    height: 50px !important;
+    width: 50px !important;
+    background-color: #FAEDE7;
+}
+.dropdown-menu h4{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(234, 88, 12);
+}
+.dropdown-menu span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #101828;
+    transition: .4s all;
+}
+.dropdown-menu p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: oklch(0.551 0.027 264.364);
+    transition: .4s all;
+}
+
+.dropdown-item{
+    transition: .4s all;
+    height: auto;
+}
+.dropdown-item:hover{
+    background-color: #FCF6F3;
+}
+.dropdown-item:hover span{
+    color: #ea580c;
+}
+.dropdown-item:hover .ddicon{
+    transform: scale(110%);
+}
+
+.botlistlast{
+    height:150px;
+    background-color: #FBEDE7;
+    border: 1px solid #F7CFBA;
+}
+.botlistlast span{
+    color: #ea580c;
+}
+.botlistlast span:hover{
+    color: #a13a02;
+}
+
 
