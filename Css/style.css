@@ -1102,7 +1102,7 @@ border: 1px solid #dee2e6 !important;
  }
  .accordion-button:not(.collapsed){
     background-color: white !important;
-    
+   
  }
  .accordion-button:not(.collapsed) .vrfd4{
     transform: rotate(180deg);
@@ -1110,6 +1110,7 @@ border: 1px solid #dee2e6 !important;
 .accordion-button::after {
   display: none;
 }
+
 .vrfd4{
     height: 40px;
     width: 40px;
@@ -1243,7 +1244,7 @@ select{
 .pickamong label:hover{
     background-color: white !important;
 
-    border: 1px solid rgba(128, 128, 128, 0.637) !important;
+    border: 1px solid rgba(1accent-28, 128, 128, 0.637) !important;
 }
 .pickamong .btn-check:checked +label{
     background-color: #FEF6F3 !important;
@@ -1312,6 +1313,17 @@ select{
 }
 #Contact .qweqwe span:hover{
     text-decoration: underline;
+}
+
+
+.form-check-input:checked {
+  background-color: #EA580C;
+  border-color: #EA580C;
+}
+
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 3px #FBDECE;
 }
 
 /* ----------------------------------------- Contact ------------------------------------------------- */
