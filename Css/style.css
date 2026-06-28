@@ -15,6 +15,12 @@ p, span{
 body{
     font-family: mainFont;
 }
+
+.nav-item a{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+}
 .baricon{
     background-image:linear-gradient(to right, #E8580C,#C4420C) ;
 width: 40px;
@@ -79,6 +85,13 @@ height: 40px;
     min-width: 70rem;
     min-height: auto;
     left: -200px;
+}
+.dropdown-menu{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.navbar-toggler{
+    border: none !important;
 }
 .ddicon{
     height: 50px !important;
@@ -272,6 +285,23 @@ transform: translate(0px, 0px) rotate(4deg);
 }
 
 /* --------------------------------------------------services------------------------------------------------------------ */
+.anmtn{
+    position: relative;
+}
+.anmtn::before{
+    content: '';
+    height: 2px;
+    width: 0px;
+    background-image: linear-gradient(to right , #E9580C, #C2410C);
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    transition: 1.5s width ease;
+
+}
+.anmtn.active::before {
+  width: 100%; 
+}
 .svss1{
     color: transparent;
     background-color: #7C2D12;
@@ -282,12 +312,12 @@ transform: translate(0px, 0px) rotate(4deg);
     background-image:linear-gradient(to right ,#E9570C,#C4420C);
     background-clip: text;
 }
-#Services h2 , #Technology h2 , #Testimonials h2 , #FAQ h2  {
+#Services h2 , #Technology h2 , #Testimonials h2 , #FAQ h2 {
     font-size: 48px;
     font-weight: 900;
     line-height: 48px;
 }
-#Services p, #Technology p  , #Testimonials p,  #FAQ p {
+#Services p, #Technology p  , #Testimonials p,  #FAQ p, #Contact p {
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -302,7 +332,7 @@ transform: translate(0px, 0px) rotate(4deg);
     transition: .4s all;
 }
 .seiviceitem{
-    min-height: 440px;
+    min-height: 480px;
     justify-content: space-between;
 }
 
@@ -983,6 +1013,9 @@ color:  #EA580C;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.tstmnialp p {
+    max-width: 1000px !important;
+}
 .tstmnilbrk{
     height: 1px;
     background-image: linear-gradient(to right, transparent, grey,transparent);
@@ -1040,6 +1073,7 @@ color:  #EA580C;
     padding: 0;
     margin: 0;
     color: oklch(0.551 0.027 264.364);
+    
 }
 .crslcard{
     border: #4a556548 2px solid;
@@ -1050,6 +1084,9 @@ color:  #EA580C;
 }
 
  /* -------------------------------------------------------------- FAQ -----------------------------  */
+#carouselExampleIndicators{
+    margin-bottom: 50px !important;
+}
 
 .accordion-item{
 border: 1px solid #dee2e6 !important;   
@@ -1108,4 +1145,217 @@ border: 1px solid #dee2e6 !important;
     line-height: 26px !important;
     color: oklch(0.446 0.03 256.802) !important;
 
+}
+
+/* ----------------------------------------- Contact ------------------------------------------------- */
+
+#Contact{
+    background-image:linear-gradient(to right, #FEF1EA,white) ;
+    border-bottom: #E5E7EB 1px solid!important;
+
+}
+
+#Contact h2{
+    font-size: 72px ;
+    font-weight: 900 ;
+    line-height: 72px ;
+    color: transparent;
+    margin: 0;
+    padding: 0;
+}
+#Contact h2 .hst{
+    background-image: linear-gradient(to right, #802E12,#E5550C,#C6430C);
+    background-clip: text;
+        margin: 0;
+    padding: 0;
+}
+#Contact h2 .hsnd{
+    background-image: linear-gradient(to right, #802E12);
+    background-clip: text;
+     margin: 0;
+    padding: 0;
+}
+#Contact p{
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    line-height: 39px !important;
+    max-width: 900px;
+}
+.forminfo{
+    min-height: 700px;
+    width: 90%;
+}
+.formright h5{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+    max-width: 900px;
+    color: rgb(124, 45, 18);
+}
+#Contact .formright p{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 28px !important;
+    max-width: 900px;
+    color: oklch(0.446 0.03 256.802);
+}
+.btn-secondary{
+    width: 170px !important;
+    min-height: 70px !important;
+    padding: 10px;
+
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+}
+#Contact .stbtnlast{
+
+    background-image:linear-gradient(to right, #E8580C,#C4420C, #E8580C) ;
+
+}
+input{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 20px !important;
+    color: oklch(0.278 0.033 256.848) !important;
+}
+::placeholder{
+     font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    color: grey !important;
+}
+select{
+         font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+}
+.pickamong label{
+    background-color: white;
+    color: #000000 !important;
+                 font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    border: 1px solid rgba(128, 128, 128, 0.151) !important;
+}
+.pickamong label:hover{
+    background-color: white !important;
+
+    border: 1px solid rgba(128, 128, 128, 0.637) !important;
+}
+.pickamong .btn-check:checked +label{
+    background-color: #FEF6F3 !important;
+    color: rgb(234, 88, 12) !important;
+    border: 1px solid rgb(234, 88, 12)  !important;
+}
+.pickamong label span{
+             font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    color: oklch(0.551 0.027 264.364);
+}
+.formleft{
+    background-color: #C4501A;
+}
+
+.formleft h5{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+    max-width: 900px;
+    color: white;
+}
+#Contact .formleft p{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    max-width: 900px;
+    color: oklab(0.999994 0.0000455677 0.0000200868 / 0.8);
+}
+.formleft span{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    max-width: 900px;
+    color: white;
+}
+.ddicon321{
+    background-color: #CB6B3B !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+.wccl{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: #CD6A3C solid 1px;
+}
+.form-check-input{
+    width: 20px;
+    height: 20px;
+    border: #767676 1px solid !important;
+
+}
+.form-check-label{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 23px !important;
+    color: oklch(0.446 0.03 256.802) !important;
+}
+#Contact .qweqwe span{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 23px !important;
+    color: rgb(234, 88, 12) !important;
+    cursor: pointer !important;
+}
+#Contact .qweqwe span:hover{
+    text-decoration: underline;
+}
+
+/* ----------------------------------------- Contact ------------------------------------------------- */
+footer span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: oklch(0.21 0.034 264.665);
+
+}
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: oklch(0.446 0.03 256.802);
+    max-width: 450px;
+
+}
+footer .brand{
+    background-color: #F3F4F6;
+    background-image: none !important;
+    cursor: pointer;
+    transition: .4s;
+}
+footer .brand:hover{
+    background-color: #EA580C;
+}
+.ftrupper{
+    border-bottom: #E5E7EB solid 1px;
+    padding-bottom: 20px;
+}
+
+footer .ftrbtm span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: oklch(0.446 0.03 256.802);
+    margin: 0 !important;
+    padding: 0 !important;
+}
+footer .ftrbtm p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: oklch(0.551 0.027 264.364);
+max-width: 100%;
 }

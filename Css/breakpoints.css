@@ -1,5 +1,46 @@
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
+.pickamong{
+    flex-direction: column;
+    gap: 10px;
+}
+.leftsd{
+    display: none !important;
+}
+.rightsd{
+width: 100% !important;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center !important;
+}
+.ratingtstmnial{
+    text-align: center !important;
+    align-items: center;
+}
+.pickamong .btn-secondary{
+    width: 100% !important;
+}
+    .accordion{
+    width: 100% !important;
+}
+
+    #carouselExampleIndicators{
+    width: 100% !important;
+    margin-bottom: 50px !important;
+}
+    .ftrupper{
+    flex-direction: column;
+    gap: 20px;
+}
+.ftrright{
+    justify-content: start !important;
+}
+  .formleft {
+    border-radius: 0 !important;
+    border-bottom-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+  }
 
     #Home{
 padding-top: 70px;
@@ -24,12 +65,21 @@ padding-top: 70px;
     font-size: 13px;
     
 }
-
+.cntccntnr{
+    width: 100% !important;
+}
 
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .formleft {
+    border-radius: 0 !important;
+    border-bottom-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+  }
+
 
 .sgninbtn{
     display: none;
