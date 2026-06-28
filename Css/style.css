@@ -263,7 +263,6 @@ transform: translate(0px, 0px) rotate(4deg);
     }
 
     .badg2{
-    width: 150px;
     height: 30px;
     color: rgb(234, 88, 12);
     background-color: #FDE9DC;
@@ -272,7 +271,7 @@ transform: translate(0px, 0px) rotate(4deg);
     line-height:  20px;
 }
 
-/* ---------------------services---------------------- */
+/* --------------------------------------------------services------------------------------------------------------------ */
 .svss1{
     color: transparent;
     background-color: #7C2D12;
@@ -283,12 +282,12 @@ transform: translate(0px, 0px) rotate(4deg);
     background-image:linear-gradient(to right ,#E9570C,#C4420C);
     background-clip: text;
 }
-#Services h2 , #Technology h2 {
+#Services h2 , #Technology h2 , #Testimonials h2 , #FAQ h2  {
     font-size: 48px;
     font-weight: 900;
     line-height: 48px;
 }
-#Services p, #Technology p{
+#Services p, #Technology p  , #Testimonials p,  #FAQ p {
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -348,7 +347,7 @@ transform: translate(0px, 0px) rotate(4deg);
     color: rgb(194, 65, 12);
 }
 
-/* ---------------------nav/tabs ---------------------- */
+/* -----------------------------------------------------------nav/tabs ------------------------------------------------------------------ */
 .nav-link{
     font-size: 18px;
     font-weight: 600;
@@ -393,7 +392,7 @@ transform: translate(0px, 0px) rotate(4deg);
 #Technology{
     padding-bottom: 50px;
 }
-/* ---------------------Technology 1 ---------------------- */
+/* ------------------------------------------------Technology 1 ----------------------------------------------------------- */
 
 .tech{
     min-height: 300px;
@@ -503,7 +502,7 @@ transform: translate(0px, 0px) rotate(4deg);
     color:oklch(0.438 0.218 303.724);
 }
 
-/* ---------------------Technology Backend ---------------------- */
+/* -----------------------------------------Technology Backend ---------------------------------------------------------- */
 
 #Technology #pills-Backend .tech p{
      font-size: 16px;
@@ -607,7 +606,7 @@ transform: translate(0px, 0px) rotate(4deg);
     color:oklch(0.437 0.078 188.216);
 }
 
-/* ---------------------Technology 3 Mobile ---------------------- */
+/* ---------------------------------------------Technology 3 Mobile ----------------------------------------------- */
 
 
 #Technology #pills-Mobile .tech p{
@@ -711,7 +710,7 @@ transform: translate(0px, 0px) rotate(4deg);
     background-color:#CBFBF1;
     color:oklch(0.437 0.078 188.216);
 }
-/* ---------------------Technology 4 CloudDevops ---------------------- */
+/* ----------------------------------------------Technology 4 CloudDevops --------------------------------------------------- */
 
 
 #Technology #pills-CloudDevops .tech p{
@@ -815,7 +814,7 @@ transform: translate(0px, 0px) rotate(4deg);
     background-color:#F3F4F6;
     color:oklch(0.278 0.033 256.848);
 }
-/* ---------------------Technology 5 Database ---------------------- */
+/* ------------------------------------------Technology 5 Database ----------------------------------------- */
 
 
 #Technology #pills-Database .tech p{
@@ -918,4 +917,195 @@ transform: translate(0px, 0px) rotate(4deg);
 #pills-Database .tech6 .tb1{
     background-color:#E0E7FF;
     color:oklch(0.398 0.195 277.366);
+}
+
+ /* -------------------------------------------------------------- Testimonials -----------------------------  */
+
+#Testimonials{
+    background-color: #FCF9F4;
+}
+
+
+
+.carousel-indicators{
+    bottom: -50px;
+    right: 0%;
+
+}
+.carousel-indicators button{
+background-color: grey !important;
+}
+.sldr{
+width: 7px !important;
+height: 7px !important;
+background-color: #D1D5DC;
+
+border-radius: 50% !important;
+transition: .4s width !important;
+
+}
+.carousel-indicators button:hover{
+width: 30px !important;
+background-color: #F3A87E !important;
+border-radius: 0 !important;
+}
+.sldr:active{
+    background-color: #EB611A !important;
+}
+.rightisc{
+    background-color: #FBEEE7 ;
+    width: 70px;
+    height: 70px;
+}
+
+.strststmn{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: oklch(0.551 0.027 264.364);
+}
+.vrfd{
+    height: 20px;
+    width: 20px;
+    background-color: #EA580C;
+}
+.vrfd1{
+    bottom: 2px;
+    right: 2px;
+}
+.sldup .badg2{
+    transform: translatey(70%);
+}
+.sldup .badg2 span {
+color:  #EA580C;
+}
+#Testimonials .carousel-inner .tstmnialp{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tstmnilbrk{
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, grey,transparent);
+    width: 100%;
+}
+.rightimg{
+    width: 70px;
+    height: 70px;
+    background-color: #fbdccb8e;
+}
+.rightimg img{
+    width: 95%;
+    height: 95%;
+    border: white 2px solid;
+}
+#Testimonials .ratingtstmnial h6{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+    color: rgb(124, 45, 18);
+}
+#Testimonials .ratingtstmnial span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+    color: oklch(0.446 0.03 256.802);
+}
+#Testimonials .ratingtstmnial p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    color: oklch(0.551 0.027 264.364);
+}
+
+#Testimonials .leftsd span{
+     font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 0;
+    margin: 0;
+    color: transparent;
+    background-image: linear-gradient(to bottom right, #9b5b3b,#C6430C);
+    background-clip: text;
+}
+#Testimonials .leftsd p{
+     font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    color: oklch(0.551 0.027 264.364);
+}
+.crslcard{
+    border: #4a556548 2px solid;
+    width: 95%;
+    min-height: 400px;
+    background-color: white;
+    margin: auto;
+}
+
+ /* -------------------------------------------------------------- FAQ -----------------------------  */
+
+.accordion-item{
+border: 1px solid #dee2e6 !important;   
+  border-radius: 17px !important;         
+  overflow: hidden !important;
+  transition: .4s border;         
+ }
+ .accordion-item:hover {
+    border: #F9D4C0 1px solid !important;
+ }
+ .accordion-button:hover {
+    background-color: #F9FAFB !important;
+ }
+ .accordion-button:not(.collapsed){
+    background-color: white !important;
+    
+ }
+ .accordion-button:not(.collapsed) .vrfd4{
+    transform: rotate(180deg);
+ }
+.accordion-button::after {
+  display: none;
+}
+.vrfd4{
+    height: 40px;
+    width: 40px;
+    background-color: #FAEDE7;
+    transition: transform .4s;
+}
+.accordion-button{
+    height: 80px;
+}
+.accordion-button p{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 28px !important;
+    color: rgb(124, 45, 18) !important;
+}
+.accordion-body{
+      font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 26px !important;
+    color: oklch(0.446 0.03 256.802) !important;
+}
+.wfaang p{
+       font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 26px !important;
+    color: oklch(0.446 0.03 256.802) !important;
+
+
+}
+.wfaang span{
+       font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 26px !important;
+    color: oklch(0.446 0.03 256.802) !important;
+
 }
